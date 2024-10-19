@@ -1,0 +1,113 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #b3bcc5;
+}
+
+
+ion-header,
+ion-toolbar {
+  --background: #2c3e50; 
+  --color: #ffffff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+ion-title {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+/*-------------------------------------------------------------*/
+
+ion-content,
+ion-item {
+  --background: #b3bcc5; 
+}
+
+ion-label {
+  font-size: 0.8rem;
+  --color: black; 
+  font-weight: bold;
+}
+/*-------------------------------------------------------------*/
+.botonPrincipal {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  --background: #01c29b; 
+  --color: #ffffff; 
+}
+.botonSecundario {
+  margin-top: 1.5rem;
+  --background: #9fbcb6;
+  --color: #ffffff;
+}
+.botonElimnar {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  --background: #d77171;
+  --color: #ffffff;
+}
+.botonA {
+  --background: #ffffff; 
+  color: #007bff; 
+}
+.botonE {
+  --background: #ffffff; 
+  color: #007bff; 
+  border: red;
+}
+
+/*-------------------------------------------------------------*/
+
+.imagen {
+  width: "100%";
+  max-width: 100px;
+  height: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 0.1rem solid black;
+}
+input,textarea{
+  margin-bottom: 1.5rem;
+}
+
+/*-------------------------------------------------------------*/
+
+
+ion-list {
+  background-color: #b3bcc5; 
+}
+
+ion-card {
+  border: 1px solid black; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; 
+  background-color: #ffffff; 
+  padding: 1rem; 
+  margin-bottom: 1rem; 
+}
+
+ion-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+
+ion-card-content {
+  font-size: 0.9rem;
+  color: #333; 
+}
+
+ion-card ion-button {
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
