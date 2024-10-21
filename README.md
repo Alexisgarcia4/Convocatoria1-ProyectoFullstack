@@ -40,7 +40,7 @@ La comunicación entre el frontend y el backend se realiza a través de una API 
 ### Backend
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_proyecto.git
+   git clone https://github.com/tu_usuario/tu_proyecto.git](https://github.com/Alexisgarcia4/Convocatoria1-ProyectoFullstack.git
    ```
 
 2. Navega a la carpeta del backend:
